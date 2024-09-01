@@ -258,7 +258,7 @@
 	//Updated for New Unit Types
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Flying Mount","Dark Magic","Light Magic","Anima Magic","Lord Melee","Lord Ranged","Lord Mounted","Lord Magic","King of Liberation"]
 	},
 	
