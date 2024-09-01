@@ -231,7 +231,7 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Swordsmaster",
-		"uniques": ["May withdraw before melee ([33]%)","[+50]% Strength <when attacking>","Upgrades to a stronger version"],
+		"uniques": ["May withdraw before melee <with [33]% chance>","[+50]% Strength <when attacking>","Upgrades to a stronger version"],
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
@@ -248,7 +248,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
-		"uniques": ["May withdraw before melee ([33]%)","[+50]% Strength <when attacking>","Will not be displayed in Civilopedia"],
+		"uniques": ["May withdraw before melee <with [33]% chance>","[+50]% Strength <when attacking>","Will not be displayed in Civilopedia"],
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
@@ -289,7 +289,15 @@
 		"unitType": "Civilian",
 		"replaces": "Great General",
 		"uniqueTo": "Bern",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]","Great Person - [War]", "Unbuildable", "Uncapturable","Can pass through impassable tiles","Ignores terrain cost"], //Hovering Unit
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles", 
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", 
+			"Unbuildable", 
+			"Uncapturable",
+			"Can pass through impassable tiles",
+			"Ignores terrain cost"
+		], //Hovering Unit
 		"movement": 6
 	},
 	
@@ -302,7 +310,15 @@
 		"movement": 4,
 		"religiousStrength": 1000
 		"promotions": ["Staff I","Resistance I"]
-		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [200] religious strength each turn it ends there","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","[-1] Sight", "Unbuildable", "Religious Unit","Upgrades to stronger versions"]
+		"uniques": [
+			"Can Spread Religion <[2] times> <after which this unit is consumed>", 
+			"May enter foreign tiles without open borders, but loses [200] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", 
+			"Unbuildable", 
+			"Religious Unit",
+			"Upgrades to stronger versions"
+		]
 	},
 	
 	{
