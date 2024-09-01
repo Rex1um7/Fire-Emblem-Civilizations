@@ -170,7 +170,7 @@
 	{
 		"name": "Sleep",
 		"prerequisites": ["Staff II"],
-		"uniques": ["May withdraw before melee ([25]%)"],
+		"uniques": ["May withdraw before melee <with [25]% chance>"],
 		"unitTypes": ["Lord Magic","Dark Magic","Light Magic","Anima Magic"]
 	},
 	
