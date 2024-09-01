@@ -188,7 +188,10 @@
 		"innerColor": [161, 2, 2],
 		"uniqueName": "Winds of the Plains",
 		"uniqueText": "+1 Culture from every Plains without terrain features.\nDouble quantity of Horses produced."
-		"uniques": ["[+1 Culture] from every [Plains] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]>","Double quantity of [Horses] produced"], 
+		"uniques": [
+			"[+1 Culture] from every [Plains] <in tiles without [Hill]> <in tiles without [Forest]> <in tiles without [Jungle]>",
+			"Double quantity of [Horses] produced"
+		], 
 		"cities": ["Bulgar","Kutolah","Djute","Lorca","Taras","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
 		"spyNames": ["Rutger", "Sin", "Fir", "Monke", "Thoril", "Marral", "Brakul", "Kudoka", "Kabul", "Dayan"]
 	},
@@ -418,8 +421,8 @@
 		"innerColor": [0,100,0],
 		"uniqueName": "Sacaean Valor",
 		"uniques": [
-			"[+15]% Strength <when fighting in [Ger] tiles",
-			"[+10]% Strength <when fighting in [Plains] tiles",
+			"[+15]% Strength <when fighting in [Ger] tiles>",
+			"[+10]% Strength <when fighting in [Plains] tiles>",
 			"[+1 Food, +1 Production] in cities on [Plains] tiles"
 		], 
 		"cities": ["Bulgar","Kutolah","Djute","Lorca","Taras","Mulagir","Hunnia","Mongul","Siogna","Scituma","Transokur","Korum-Korum","Sogdiakar","Sianba","Saramatu","Taliver","Thraka","Gokturka","Turkkikik","Cumani","Kipapachak","Manchupiuka","Berbrik","Kazakahal","Bedou-ani","Sintikop"]
